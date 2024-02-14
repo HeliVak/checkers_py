@@ -1,10 +1,13 @@
+
 class Piece:
     pass
+
 
 class Cell:
     def __init__(self, color: str, piece: Piece | None) -> None:
         self.color = color
         self.piece = piece
+
 
 class Board:
     def __init__(self, border_size: int) -> None:
